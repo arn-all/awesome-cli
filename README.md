@@ -11,7 +11,7 @@ My curated list of awesome command-line interface (CLI) tools.
 | [tealdeer](https://github.com/dbrgn/tealdeer) | A fast command-line viewer for simplified and community-driven documentation (tldr pages).  |
 | [fd](https://github.com/sharkdp/fd) | A simple, fast, and user-friendly alternative to find.                                      |
 | [choose](https://github.com/theryangeary/choose) | A human-friendly and fast alternative to cut, awk, and select.                                |
-| [ouch](https://github.com/sindresorhus/ouch) | An error message beautifier for the command line.                                            |
+| [ouch](https://github.com/ouch-org/ouch) | Painless compression and decompression in the terminal                                            |
 | [micro](https://github.com/zyedidia/micro) | A modern and intuitive terminal-based text editor.                                          |
 | [zellij](https://github.com/zellij-org/zellij) | A workspace manager for terminal applications with multiple panes.                           |
 | [Oh my zsh](https://ohmyz.sh/)| A powerful and feature-rich shell with extensive configuration options.                       |
