@@ -18,3 +18,4 @@ My curated list of awesome command-line interface (CLI) tools.
 | [zsh-autocomplete](https://github.com/zsh-users/zsh-autosuggestions) | Fish-like autosuggestions for zsh.                                                           |
 | [bat](https://github.com/sharkdp/bat) | A cat clone with syntax highlighting and Git integration.                                    |
 | [sd](https://github.com/chmln/sd) | Intuitive find & replace CLI (sed alternative) with a simple syntax and structural diff capabilities. |
+| [catppuccin](https://github.com/catppuccin/catppuccin) | A community-driven pastel theme for your terminal or text editor.      |
