@@ -13,7 +13,7 @@ Most useful tools:
 | [fd](https://github.com/sharkdp/fd) | A simple, fast, and user-friendly alternative to find.                                      |
 | [catppuccin](https://github.com/catppuccin/catppuccin) | A community-driven pastel theme for your terminal or text editor.      |
 | [Oh my zsh](https://ohmyz.sh/)| A powerful and feature-rich shell with extensive configuration options.                       |
-| [zsh-autocomplete](https://github.com/zsh-users/zsh-autosuggestions) | Fish-like autosuggestions for zsh.                            |
+| [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | Fish-like autosuggestions for zsh.                            |
 
 Optional, yet interesting, additions:
 
