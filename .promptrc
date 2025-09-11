@@ -1,0 +1,46 @@
+# Color definitions - Used with Catppuccin theme
+RED="\[\033[0;31m\]"
+GREEN="\[\033[0;32m\]"
+YELLOW="\[\033[0;33m\]"
+BLUE="\[\033[0;34m\]"
+MAGENTA="\[\033[0;35m\]"
+CYAN="\[\033[0;36m\]"
+WHITE="\[\033[0;37m\]"
+RESET="\[\033[0m\]"
+PROMPT_DIRTRIM=4
+
+# define prompt
+PS1="\n${BLUE}\[\e[1m\]\u@\h\[\e[0m\]${GREEN} \w ${BLUE} ❱ ${RESET}"
+
+# Additional settings
+
+# disable tab bell
+bind 'set bell-style none'
+export LESS="$LESS -Q"
+
+# If there are multiple matches for completion, Tab should cycle through them
+bind 'TAB:menu-complete'
+# And Shift-Tab should cycle backwards
+bind '"\e[Z": menu-complete-backward'
+
+# Display a list of the matching files
+bind "set show-all-if-ambiguous on"
+
+# Perform partial (common) completion on the first Tab press, only start
+# cycling full results on the second Tab press (from bash version 5)
+bind "set menu-complete-display-prefix on"
+
+# Make completion case insensitive
+bind 'set completion-ignore-case on'
+bind 'set completion-map-case on'
+
+# Cycle through history based on characters already typed on the line
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
+
+# Keep Ctrl-Left and Ctrl-Right working when the above are used
+bind '"\e[1;5C":forward-word'
+bind '"\e[1;5D":backward-word'
+
+# fixes some annoying tab-completion issues like $ -> \$ or different behavior for cp and cd 
+shopt -u progcomp
